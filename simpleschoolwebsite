@@ -1,0 +1,861 @@
+html and javascript codes
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epa/Home</title>
+    <link rel="stylesheet" href="EpaHome.css">
+</head>
+<body>
+    <div id="body-contents">
+        <div id="header">
+            <div id="EpaLogo">
+                <img src="epalogo1.jpg" alt="">
+            </div>
+            <div id="Title">
+               <h2>GS EPA ST MICHEL</h2>
+            </div>
+            <div id="header-buttons">
+                
+               <a href="EpaHome.html"><button id="button1" class="button1">Home</button></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button id="button1" class="button1">Visit us</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                <button id="button1" class="button1">About us</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button id="button1" class="button1" onclick="gallery()">gallery</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                <button id="button1" class="button1">Post</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button id="button1" class="button1">Notification</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button id="button1" class="button1" onclick="registrate()">Registration</button>
+          
+                <div id="setting">
+            <img src="cool.jpg" alt="" id="profile" onclick="display()"><br>
+            <h6 id="name">LOST ooh</h6>
+        <hr id="hrsetting">
+        <div id="none-nav-buttons">
+        <button id="nonebuttons" onclick="updatepic()">change profile</button><br>
+        <button id="gaga" onclick="administrationc()">Our administration</button><br>
+        <button id="nonebuttons">location</button><br>
+        <button id="nonebuttons">our parteners</button><br>
+        <button id="nonebuttons">About us</button><br>
+        <button id="nonebuttons">contact us</button><br>
+        <button id="nonebuttons">setting & privacy</button><br>
+        <button id="nonebuttons">chatt room</button><br>
+        <button id="nonebuttons">send feedback</button><br>
+        <button id="nonebuttons">vist class</button><br>
+        <button id="nonebuttons">problem</button><br>
+        <button id="nonebuttons">get help for our web</button><br>
+        <button id="nonebuttons" onclick="registrate()">registration</button><br>
+        <button id="nonebuttons">security</button><br>
+    </div>
+        <div id="setting2">
+           
+        
+        
+          
+           </div>
+            </div>
+            
+        </div>
+        <hr>
+        <fieldset id="body-display">
+            <center>
+            <fieldset id="fieldset-contents-body">
+
+            <h3>WELCOME TO GROUPE SCOLAIRE EPA ST MICHEL</h3>
+            <p>its good and amazing to vist our education</p>
+            <img src="cool.jpg" alt="" id="body-image">
+            <img src="rusatsi.jpg" alt="" id="body2-image">
+           
+            <div id="call">
+                <button id="call1">call us</button>
+                <button id="call2">get help</button>
+            </div>
+            <div id="info to Epa">
+                <h2>LIttle information for epa</h2>
+                <p>Epa is the day school which is located in</p>
+                <p>kigali city & nyarugenge district in NY s</p>
+                <p>it founded in 1950 by PADIRI lostooh innn</p>
+                <p>and started to be famous in 2000 where PAPA</p>
+                <p>francs visted it:</p>
+            </div><br><br>
+            <div id="adminstartion of epa">
+                <h2>This is Epa in Office</h2><br><br>
+                <table border="1" cellspacing="1" style="width: 100%;">
+                    <tr>
+                        <th>
+                            LEADERS name
+                        </th>
+                        <th>
+                            Inspaction
+                        </th>
+                        <th>
+                            Photo 
+                        </th>
+                        <th>
+                            contact
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            RUSINGIZA NDEKWE antoin
+                        </td>
+                        <td>
+                           <p> THIS is head master of<br>
+                        he won many awards in kg<br>
+                    like FA rgamba no kurwanya<br>
+                ibyinshi birenzeho<br>
+            kdii akaba yarayoboye ibigo<br>
+        nka :GS cyhafii&Kimisagara</p>
+                        </td>
+                        <td>
+                           <img src="cool.jpg" id="tableimage" >
+                        </td>
+                        <td>
+                            Phone:0783737402<br>
+                            Email:RUSIINGI@gmail.com<br>
+                            WHATSUP:0783737402<br>
+                            facebook:LOST ooh<br>
+                            IG:lostooh2023
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            RUSINGIZA NDEKWE antoin
+                        </td>
+                        <td>
+                           <p> THIS is head master of<br>
+                        he won many awards in kg<br>
+                    like FA rgamba no kurwanya<br>
+                ibyinshi birenzeho<br>
+            kdii akaba yarayoboye ibigo<br>
+        nka :GS cyhafii&Kimisagara</p>
+                        </td>
+                        <td>
+                           <img src="cool.jpg" id="tableimage" >
+                        </td>
+                        <td>
+                            Phone:0783737402<br>
+                            Email:RUSIINGI@gmail.com<br>
+                            WHATSUP:0783737402<br>
+                            facebook:LOST ooh<br>
+                            IG:lostooh2023
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            RUSINGIZA NDEKWE antoin
+                        </td>
+                        <td>
+                           <p> THIS is head master of<br>
+                        he won many awards in kg<br>
+                    like FA rgamba no kurwanya<br>
+                ibyinshi birenzeho<br>
+            kdii akaba yarayoboye ibigo<br>
+        nka :GS cyhafii&Kimisagara</p>
+                        </td>
+                        <td>
+                           <img src="cool.jpg" id="tableimage" >
+                        </td>
+                        <td>
+                            Phone:0783737402<br>
+                            Email:RUSIINGI@gmail.com<br>
+                            WHATSUP:0783737402<br>
+                            facebook:LOST ooh<br>
+                            IG:lostooh2023
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            RUSINGIZA NDEKWE antoin
+                        </td>
+                        <td>
+                           <p> THIS is head master of<br>
+                        he won many awards in kg<br>
+                    like FA rgamba no kurwanya<br>
+                ibyinshi birenzeho<br>
+            kdii akaba yarayoboye ibigo<br>
+        nka :GS cyhafii&Kimisagara</p>
+                        </td>
+                        <td>
+                           <img src="cool.jpg" id="tableimage" >
+                        </td>
+                        <td>
+                            Phone:0783737402<br>
+                            Email:RUSIINGI@gmail.com<br>
+                            WHATSUP:0783737402<br>
+                            facebook:LOST ooh<br>
+                            IG:lostooh2023
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            RUSINGIZA NDEKWE antoin
+                        </td>
+                        <td>
+                           <p> THIS is head master of<br>
+                        he won many awards in kg<br>
+                    like FA rgamba no kurwanya<br>
+                ibyinshi birenzeho<br>
+            kdii akaba yarayoboye ibigo<br>
+        nka :GS cyhafii&Kimisagara</p>
+                        </td>
+                        <td>
+                           <img src="cool.jpg" id="tableimage" >
+                        </td>
+                        <td>
+                            Phone:0783737402<br>
+                            Email:RUSIINGI@gmail.com<br>
+                            WHATSUP:0783737402<br>
+                            facebook:LOST ooh<br>
+                            IG:lostooh2023
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            RUSINGIZA NDEKWE antoin
+                        </td>
+                        <td>
+                           <p> THIS is head master of<br>
+                        he won many awards in kg<br>
+                    like FA rgamba no kurwanya<br>
+                ibyinshi birenzeho<br>
+            kdii akaba yarayoboye ibigo<br>
+        nka :GS cyhafii&Kimisagara</p>
+                        </td>
+                        <td>
+                           <img src="cool.jpg" id="tableimage" >
+                        </td>
+                        <td>
+                            Phone:0783737402<br>
+                            Email:RUSIINGI@gmail.com<br>
+                            WHATSUP:0783737402<br>
+                            facebook:LOST ooh<br>
+                            IG:lostooh2023
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            RUSINGIZA NDEKWE antoin
+                        </td>
+                        <td>
+                           <p> THIS is head master of<br>
+                        he won many awards in kg<br>
+                    like FA rgamba no kurwanya<br>
+                ibyinshi birenzeho<br>
+            kdii akaba yarayoboye ibigo<br>
+        nka :GS cyhafii&Kimisagara</p>
+                        </td>
+                        <td>
+                           <img src="cool.jpg" id="tableimage" >
+                        </td>
+                        <td>
+                            Phone:0783737402<br>
+                            Email:RUSIINGI@gmail.com<br>
+                            WHATSUP:0783737402<br>
+                            facebook:LOST ooh<br>
+                            IG:lostooh2023
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            RUSINGIZA NDEKWE antoin
+                        </td>
+                        <td>
+                           <p> THIS is head master of<br>
+                        he won many awards in kg<br>
+                    like FA rgamba no kurwanya<br>
+                ibyinshi birenzeho<br>
+            kdii akaba yarayoboye ibigo<br>
+        nka :GS cyhafii&Kimisagara</p>
+                        </td>
+                        <td>
+                           <img src="cool.jpg" id="tableimage" >
+                        </td>
+                        <td>
+                            Phone:0783737402<br>
+                            Email:RUSIINGI@gmail.com<br>
+                            WHATSUP:0783737402<br>
+                            facebook:LOST ooh<br>
+                            IG:lostooh2023
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+        </fieldset>
+        <fieldset id="updating-fieldset" style="width: 400px; background-color: white;border-radius: 5px; border-color: black; box-sizing: border-box; display: none;">
+            <form>
+                <h2>update pic</h2>
+                <h3 id="name"></h3>
+                <img src="" id="profile-pic"><br>
+                <label for="inpu-image">update picture</label>
+                <input type="file" accept="image/jpeg, image/png, image/jpg" id="inpu-image">
+            </form>
+            <p>if u have changed you profile pic<br>
+            you can also change it after 21 dayz<br>
+        also you can change your profile name or<br>
+    get another code for your student<br>
+security</p>
+<a href="change.html" id="link">change name</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<p>click this up button to change name<br>
+    click down button to get another code</p>
+<a href="change.html" id="link">Get anather password</a>
+
+        </fieldset>
+    </center>
+  <fieldset id="field-admin">
+    <div id="adminstration">
+        <center></center>
+ <img src="cool.jpg" alt="" id="admin-image">&nbsp; &nbsp; &nbsp; &nbsp; <img src="cool.jpg" alt="" id="admin-image"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="cool.jpg" alt="" id="admin-image">
+ <div id="words1"><p id="hirya">
+    his name is:RUSINGIZA NDEKWE antoin<br>
+his name is:RUSINGIZA NDEKWE antoin<br>
+his name is:RUSINGIZA NDEKWE antoin<br>
+his name is:RUSINGIZA NDEKWE antoin<br>
+facebok:RUSINGIZA NDEKWE antoin<br>
+instagram:RUSINGIZA NDEKWE antoin
+</p></div>
+
+<div id="words2"><p>  his name is:RUSINGIZA NDEKWE antoin<br>
+    his name is:RUSINGIZA NDEKWE antoin<br>
+    his name is:RUSINGIZA NDEKWE antoin<br>
+    his name is:RUSINGIZA NDEKWE antoin<br>
+    facebok:RUSINGIZA NDEKWE antoin<br>
+    instagram:RUSINGIZA NDEKWE antoin
+    </p></div>
+    <div id="words3"><p>  his name is:RUSINGIZA NDEKWE antoin<br>
+        his name is:RUSINGIZA NDEKWE antoin<br>
+        his name is:RUSINGIZA NDEKWE antoin<br>
+        his name is:RUSINGIZA NDEKWE antoin<br>
+        facebok:RUSINGIZA NDEKWE antoin<br>
+        instagram:RUSINGIZA NDEKWE antoin
+        </p><br><br><br>
+    </div>
+    <br><br>
+       
+    </center>
+    <aside align="center">
+    <fieldset style="background-color: white; color: red; width: 200px; margin-left: 550px; ">
+<h3>if u dont like<br>the service you gain<br>
+<button>call us </button></h3>
+    </fieldset>
+    </aside>
+   
+            
+    </div>
+    </fieldset>
+<div id="galleryf">
+    <fieldset id="field-gallery">
+        <h2>GS EPA ST MICHEL  PHOTOS</h2>
+        <div id="Eastern">
+        <h3 style="color: blue;">these are epa st michel photos for a body who is located in eastern of this school<br>
+            these are epa st michel photos for a body who is located in eastern of this school<br>
+            these are epa st michel photos for a body who is located in eastern of this school<br>
+            these are epa st michel photos for a body who is located in eastern of this school<br>
+            these are epa st michel photos for a body who is located in eastern of this school<br>
+        
+        </h3>
+        <img src="rusatsi2.jpg" alt="" id="gallery">
+        <img src="rusatsi2.jpg" alt="" id="gallery">
+        <img src="rusatsi2.jpg" alt="" id="gallery">
+    </div>
+
+    <div id="Eastern">
+        <h3 style="color: blue;">these are epa st michel photos for a body who is located in eastern of this school<br>
+            these are epa st michel photos for a body who is located in eastern of this school<br>
+            these are epa st michel photos for a body who is located in eastern of this school<br>
+            these are epa st michel photos for a body who is located in eastern of this school<br>
+            these are epa st michel photos for a body who is located in eastern of this school<br>
+        
+        </h3>
+        <img src="rusatsi2.jpg" alt="" id="gallery">
+        <img src="rusatsi2.jpg" alt="" id="gallery">
+        <img src="rusatsi2.jpg" alt="" id="gallery">
+    </div>
+
+    <div id="Eastern">
+        <h3 style="color: blue;">these are epa st michel photos for a body who is located in northern of this school<br>
+            these are epa st michel photos for a body who is located in eastern of this school<br>
+            these are epa st michel photos for a body who is located in eastern of this school<br>
+            these are epa st michel photos for a body who is located in eastern of this school<br>
+            these are epa st michel photos for a body who is located in eastern of this school<br>
+        
+        </h3>
+        <img src="rusatsi2.jpg" alt="" id="gallery">
+        <img src="rusatsi2.jpg" alt="" id="gallery">
+        <img src="rusatsi2.jpg" alt="" id="gallery">
+    </div>
+    <div id="retun-up">
+        <button>return up</button>
+        <button>visit school</button>
+        <button>chat room</button>
+        <button>aother pics</button>
+        <button>adminstration</button>
+        <button>registration</button>
+    </div>
+    </fieldset>
+</div>
+<div id="registration">
+    <fieldset id="field-registration" style="border-color: transparent;">
+<h2>REGISTRATION</h2>
+<p>its simple and easy to do it</p>
+<form>
+    <table border="1" cellspacing="1" style="border-color: transparent;">
+        <tr><td colspan="2" >
+            <input type="text" id="input-f-name" placeholder="first parent name">
+        </td></tr>
+        <tr><td colspan="2" >
+            <input type="text" id="input-f-name" placeholder="first parent name">
+        </td></tr>
+        <tr><td  >
+            <input type="text" id="input-f" placeholder="parent number">
+        </td>
+        <td  >
+            <input type="text" id="input-f" placeholder="parent ID">
+        </td></tr>
+        <tr><td colspan="2" >
+            <p>LETS EDIT BOUT OUR STUSENT</p>
+        </td></tr>
+        <tr><td colspan="2" >
+            <input type="text" id="input-f-name" placeholder="student_f-name">
+        </td></tr>
+        <tr><td colspan="2" >
+            <input type="text" id="input-f-name" placeholder="student_s-name">
+        </td></tr>
+        <tr><td colspan="2" >
+            <p>student qualification of some level</p>
+        </td></tr>
+        <tr><td colspan="2" >
+            <input type="file" id="input-f-name" placeholder="Qualification">
+        </td></tr>
+        <tr><td colspan="2" >
+           <p>When did student birth</p>
+        </td></tr>
+        <tr><td colspan="2" >
+            <input type="date" id="input-f-name" >
+        </td></tr>
+        <tr><td colspan="2" >
+            <input type="number" id="input-f-name" placeholder="enter student amrk">
+        </td></tr>
+        <tr><td colspan="2" >
+            <p>which is the gengder of the student</p>
+        </td></tr>
+        <tr><td colspan="2" >
+            <input type="radio" value="female">female
+            <input type="radio" value="female">male
+            <input type="radio" value="female">custom
+        </td></tr>
+        <tr><td colspan="2" >
+            <p>if student have ID put it here</p>
+        </td></tr>
+        <tr><td colspan="2" >
+            <input type="number" id="input-f-name" placeholder="student ID">
+        </td></tr>
+        <tr><td colspan="2" >
+            insert here student bourdero
+        </td></tr>
+        <tr><td colspan="2" >
+            <input type="file" id="input-f-name" placeholder="student ID">
+        </td></tr>
+        <tr><td colspan="2" >
+            <input type="file" id="input-f-name" placeholder="number-of money">
+        </td></tr>
+        <div id="next">
+            <tr><td colspan="2" >
+                <input type="location" id="input-f-name" placeholder="where student from,dstrict,country,sector,cell,village,continent">
+            </td></tr>
+            <tr><td colspan="2" >
+<p>choose wher to registrate your student </p>
+            </td></tr>
+            <tr><td colspan="2" >
+                O-level:
+                <select name="primary" id=" olevel" value="O level">
+                    <option value="1">s1</option>
+                    <option value="1">s2</option>
+                    <option value="1">s3</option>
+                    <option value="1">s4</option>
+                    <option value="1">s1</option>
+                    <option value="1">s2</option>
+                    <option value="1">s3</option>
+                    <option value="1">s4</option>
+                </select>
+                primary:
+                <select name="primary" id="primary" value="primary">
+                    <option value="1">p1</option>
+                    <option value="1">p2</option>
+                    <option value="1">p3</option>
+                    <option value="1">p1</option>
+                    <option value="1">p2</option>
+                    <option value="1">p3</option>
+                </select>
+                E-Lvel:
+                <select name="elevel" id="elevel" value="E level">
+                    <option value="1">s5</option>
+                    <option value="1">s4</option>
+                    <option value="1">s6</option>
+                    <option value="1">s5</option>
+                    <option value="1">s4</option>
+                    <option value="1">s6</option>
+                </select>
+            </td></tr>
+            <tr><td colspan="2" >
+                <input type="location" id="input-f-name" placeholder="number of school where your student come from">
+            </td></tr>
+            <tr><td colspan="2" >
+              <p>does your student have disablity</p>
+            </td></tr>
+            <td colspan="2" >
+                <input type="radio" value="female">Yes
+                <input type="radio" value="female">No
+                
+            </td></tr>
+            <td colspan="2" >
+             <button id="registrate-button" style="background-color: black; color: white; width: 400px; height: 50px;" onclick="check()">submit</button>
+            </td></tr>
+            <div id="nextnext">
+                <td colspan="2" >
+                    <input type="location" id="input-f-name" placeholder="entercode">
+                    <br>
+                    <button>resend code again</button>
+                    
+                </td></tr>
+                <td colspan="2" >
+                    <button id="registrate-button" style="background-color: black; color: white; width: 400px; height: 50px;">contunue</button>
+                   </td></tr>
+            </div>
+        </div>
+    </table>
+</form>
+    </fieldset>
+</div>
+        </fieldset>
+    </div>
+   
+    
+</body>
+<script>
+    function display(){
+        document.getElementById("none-nav-buttons").style.display="block"
+       
+    }
+    let profilepic =document.getElementById("profile-pic");
+let inputfile =document.getElementById("inpu-image");
+inputfile.onchange= function(){
+    profilepic.src=URL.createObjectURL(inputfile.files[0]);
+    display.reload()=false;
+}
+    
+    function updatepic(){
+document.getElementById("updating-fieldset").style.display="block";
+document.getElementById("fieldset-contents-body").style.display="none"
+document.getElementById("none-nav-buttons").style.display="none"
+document.getElementById("field-admin").style.display="none"
+document.getElementById("galleryf").style.display="none"
+    }
+    function administrationc(){
+        document.getElementById("updating-fieldset").style.display="none";
+document.getElementById("fieldset-contents-body").style.display="none"
+document.getElementById("none-nav-buttons").style.display="none"
+document.getElementById("field-admin").style.display="block"
+document.getElementById("galleryf").style.display="none"
+document.getElementById("registration").style.display="none"
+    } 
+    function gallery(){
+        document.getElementById("updating-fieldset").style.display="none";
+document.getElementById("fieldset-contents-body").style.display="none"
+document.getElementById("none-nav-buttons").style.display="none"
+document.getElementById("field-admin").style.display="none"
+document.getElementById("galleryf").style.display="block"
+document.getElementById("registration").style.display="none"
+
+    }
+    function registrate(){
+        document.getElementById("updating-fieldset").style.display="none";
+document.getElementById("fieldset-contents-body").style.display="none"
+document.getElementById("none-nav-buttons").style.display="none"
+document.getElementById("field-admin").style.display="none"
+document.getElementById("galleryf").style.display="none"
+document.getElementById("registration").style.display="block"
+
+    }
+    var input=document.getElementById("input-f-name").value;
+
+    function check(){
+if(input==""){
+    alert("reba hejuru wasimbutse")
+    
+}
+else{
+    alert("those are your code 0404")
+    
+}
+    }
+  ;
+  setTimeout(()=>{
+    document.getElementById("body2-image").style.display="block"
+    document.getElementById("body-image").style.display="none"
+    document.getElementById("body3-image").style.display="block"
+  },4000)
+  ;
+  
+  
+  
+</script>
+</html>
+css codes
+img{
+    width: 100px;
+    height: 50px;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+#Title{
+    margin-left: 100px;
+    margin-top: -43px;
+}
+#header-buttons{
+    text-align: center;
+    margin-top: -27px;
+    margin-left: 400px;
+   
+}
+#body-display{
+    border-color: transparent;
+    
+}
+#fieldset-contents-body{
+    border-color: transparent;
+}
+#profile{
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+}
+hrsetting{
+    width: 200px; color: blue;
+
+}
+#link{
+    display: block;
+    width: 200px;
+    background: black;
+    color: blue;
+   height: 50px;
+ text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: medium;
+}
+#profile-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    border-color: blue;
+
+
+}
+#inpu-image{
+    display: none;
+}
+label{
+   
+        display: block;
+        width: 200px;
+        background: black;
+        color: blue;
+       height: 50px;
+     text-align: center;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: medium;
+
+
+}
+#call1{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+  margin-top: -400px;
+}
+#call2{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-top: -400px;
+   
+}
+p{
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif; 
+}
+td{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+th{
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-align: center;
+}
+#tableimage{
+    height: 200px;
+    width: 200px;
+}
+#setting{
+    float: right;
+    margin-top: -14px;
+    background-color: whitesmoke;
+    text-align: left;
+    
+}
+table{
+    border-color: transparent;
+}
+#body-image{
+    width: 100%;
+   height: 500px;
+   
+}
+
+#body2-image{
+    width: 100%;
+   height: 500px;
+   display: none;
+}
+
+
+#none-nav-buttons{
+    display: none;
+}
+
+button{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: medium;
+    color: blue;
+    background-color: transparent;
+    border-color: transparent;
+}
+#body4-image{
+    display: none;
+    width: 100%;
+   height: 500px;
+}
+#body3-image{
+    display: none;
+    width: 100%;
+   height: 500px;
+}
+#field-admin{
+    display: none;
+}
+
+input{
+    background-color: transparent;
+    color: black;
+    border-color: blue;
+    border-width: 3px;
+}
+#next{
+    display: none;
+    
+}
+#nextnext{
+    display: none;
+    
+}
+#gallery{
+    width: 650px;
+    height: 400px;
+}
+#input-f-name{
+    width: 400px;
+    height: 50px;
+}
+#registration{
+    display: none;
+    color: blue;
+    margin-left: 500px;
+}
+#input-f{
+    width: 200px;
+    height: 25px;
+    border-color: black;
+    background-color: whitesmoke;
+}
+#field-gallery{
+    border-color: transparent;
+  
+    margin-left: 370px;
+    
+}
+#galleryf{
+    display: none;
+}
+#hirya{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#words3{
+    float: right;
+    margin-top: -115px;
+    margin-right: 100px;
+}
+#words2{
+    text-align: center;
+    margin-top: -115px;
+    margin-right: 100px;
+}
+#words2{
+    
+    
+    margin-left: 20px;
+}
+button:hover{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: medium;
+    color: blue;
+   
+    background-color: black;
+    border-color: transparent;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+}
+#admin-image{
+    width: 400px;
+    height: 400px;
+    border-radius: 100px;
+    border-color: black;
+}
